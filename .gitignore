@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Environment variables (contains real API keys/secrets — never commit)
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# Server's locally-cached ML model (regenerates on first run, large binary files)
+server/local_cache/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor/OS junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
